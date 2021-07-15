@@ -81,7 +81,10 @@ function NavBar() {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav
+      className="navbar navbar-expand-lg navbar-light bg-light"
+      style={{ padding: "0px 60px" }}
+    >
       <Link href="/">
         <a className="navbar-brand">E-Shop</a>
       </Link>
