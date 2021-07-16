@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    BASE_URL: "http://localhost:3000",
+    BASE_URL: "https://e-commerce-umber.vercel.app",
     MONGODB_URL:
       "mongodb+srv://nvicta:URIBXIN1JQgE5UL6@cluster0.chnqb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     ACCESS_TOKEN_SECRET: "YOUR_ACCESS_TOKEN_SECRET",
