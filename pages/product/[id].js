@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import { useState, useContext } from 'react'
-import { getData } from '../../utils/fetchData'
-import { DataContext } from '../../store/GlobalState'
+import { useContext, useState } from 'react'
 import { addToCart } from '../../store/Actions'
+import { DataContext } from '../../store/GlobalState'
+import { getData } from '../../utils/fetchData'
 
 const DetailProduct = (props) => {
     const [product] = useState(props.product)
@@ -41,7 +41,7 @@ const DetailProduct = (props) => {
 
             <div className="col-md-6 mt-3">
                 <h2 className="text-uppercase">{product.title}</h2>
-                <h5 className="text-danger">${product.price}</h5>
+                <h5 className="text-danger">₹{product.price}</h5>
 
                 <div className="row mx-0 d-flex justify-content-between">
                     {
